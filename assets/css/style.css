@@ -160,7 +160,22 @@
 .btn {
   min-width: 10rem;
   border-radius: 100px;
+  text-align: center;
 }
+
+.btn-primary{
+  background: var(--accent);
+  color: var(--white);
+  padding: 0.6rem 1.2rem;
+}
+
+.btn-secondary{
+  background: var(--action-secondary);
+  color: var(--foreground-secondary);
+  padding: 0.6rem 1.2rem;
+  border: 3px solid var(--foreground-tertiary);
+}
+
 
 header {
   background: var(--background-primary);
